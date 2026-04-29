@@ -38,7 +38,8 @@ Initially, the virtual machines were on different networks, which prevented comm
 ### ✅ Fix:
 - Both VMs were configured to use a **Host-only network**
 - This ensured both devices were on the same subnet
-
+![Ipconfig](./images/ipconfig.png)
+![Ifconfig](./images/ifconfig.png)
 ---
 
 ## 🚨 Firewall Adjustment
@@ -70,7 +71,7 @@ ping 192.168.56.103
 ```
 
 This sends ICMP Echo Requests to the target machine.
-
+![Ping - Kali](./images/kaliping.png)
 ---
 
 ### 3. Apply Wireshark Filter
@@ -80,7 +81,7 @@ icmp
 ```
 
 This filter displays only ICMP traffic.
-
+![Wireshark](./images/wiresharkicmp.png)
 ---
 
 ## 🔍 Observations
