@@ -141,7 +141,12 @@ ICMP traffic can be used in both normal and malicious scenarios.
 - High volume of ICMP requests  
 - One device pinging multiple devices  
 - No replies (possible scanning activity)
+---
+## 🛡️ Defensive Actions
 
+- Monitor ICMP traffic for unusual patterns
+- Configure firewall rules to limit ICMP if necessary
+- Use SIEM tools (e.g. Splunk) to detect abnormal behaviour
 ---
 
 ## 🧾 Conclusion
